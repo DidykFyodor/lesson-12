@@ -60,6 +60,17 @@
   .contact__title {
     margin-bottom: 32px;
   }
+  .contact__text {
+    margin-bottom: 19px;
+    padding: 0;
+    padding: 20px;
+    line-height: 1.2;
+    font-size: 18px;
+  }
+  .contact__text::placeholder {
+    text-align: center;
+    line-height: 20px;
+  }
   .navigation__link {
     font-size: 24px;
   }
@@ -168,6 +179,11 @@
   }
   .contact__title {
     margin-bottom: 32px;
+  }
+  .contact__submit {
+    position: static;
+    transform: none;
+    width: 100%;
   }
   /* ----------------------------------------------------------- */
   .menu-open .header__container {
