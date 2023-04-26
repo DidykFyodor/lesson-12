@@ -60,17 +60,7 @@
   .contact__title {
     margin-bottom: 32px;
   }
-  .contact__text {
-    margin-bottom: 19px;
-    padding: 0;
-    padding: 20px;
-    line-height: 1.2;
-    font-size: 18px;
-  }
-  .contact__text::placeholder {
-    text-align: center;
-    line-height: 20px;
-  }
+
   .navigation__link {
     font-size: 24px;
   }
@@ -151,6 +141,13 @@
   .banner__container {
     padding: 0;
   }
+  .contact__text {
+    margin-bottom: 19px;
+    padding: 0;
+    padding: 20px;
+    line-height: 1.2;
+    font-size: 18px;
+  }
   .navigation__link {
     font-size: 20px;
   }
@@ -184,6 +181,10 @@
     position: static;
     transform: none;
     width: 100%;
+  }
+  .contact__text::placeholder {
+    text-align: center;
+    line-height: 20px;
   }
   /* ----------------------------------------------------------- */
   .menu-open .header__container {
