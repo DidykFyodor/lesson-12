@@ -31,10 +31,10 @@
   .banner__article {
     font-size: 20px;
   }
-  .banner__container {
+  .main__description {
     margin-bottom: 24.2px;
   }
-  .main__banner {
+  .main__description {
     margin-bottom: 35px;
   }
   .title {
@@ -142,7 +142,7 @@
   .header__burger::before {
     background-color: #fff;
   }
-  .banner__container {
+  .main__description {
     padding: 0;
   }
   .contact__text {
@@ -158,7 +158,7 @@
   .banner__article {
     font-size: 18px;
   }
-  .main__banner {
+  .main__description {
     margin-bottom: 23px;
   }
   .history__title {
