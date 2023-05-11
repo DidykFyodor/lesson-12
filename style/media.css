@@ -131,6 +131,9 @@
   .banner__image {
     position: relative;
   }
+  .main__banner {
+    padding: 0;
+  }
   .header__container {
     min-height: 86px;
   }
